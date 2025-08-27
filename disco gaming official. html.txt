@@ -1,0 +1,238 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Disco Gaming Official</title>
+  <meta name="description" content="Disco Gaming Official - Free Fire gameplay, highlights, and edits. Follow on YouTube & Instagram." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+  <style>
+    :root{
+      --bg:#07070b;
+      --card:#0f1115;
+      --accent:#ff3cac; /* neon pink */
+      --accent2:#00d4ff; /* neon cyan */
+      --muted:#9aa0a6;
+      --glass: rgba(255,255,255,0.04);
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background: radial-gradient(1200px 600px at 10% 10%, rgba(0,212,255,0.04), transparent 8%),
+                  radial-gradient(900px 400px at 90% 90%, rgba(255,60,172,0.04), transparent 6%),
+                  var(--bg);
+      color:#e6eef6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:24px;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+    }.container{
+  width:100%;
+  max-width:980px;
+}
+
+header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+.logo{
+  width:72px;height:72px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent2));
+  display:flex;align-items:center;justify-content:center;font-size:32px;box-shadow:0 6px 24px rgba(0,0,0,0.6);
+}
+h1{margin:0;font-size:22px;letter-spacing:0.6px}
+p.lead{margin:4px 0 0;color:var(--muted);font-size:13px}
+
+.hero{
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:16px;padding:18px;display:flex;gap:18px;align-items:center;box-shadow:0 8px 30px rgba(0,0,0,0.6);
+  border:1px solid rgba(255,255,255,0.03);
+}
+
+.left{flex:1}
+.right{width:320px}
+
+.cover{
+  height:160px;border-radius:12px;background:linear-gradient(90deg, rgba(0,212,255,0.06), rgba(255,60,172,0.06));display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;border:1px solid var(--glass);
+}
+
+.buttons{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);cursor:pointer;text-decoration:none;color:inherit;font-weight:600}
+.btn .icon{font-size:16px;opacity:0.95}
+.btn.youtube{background:linear-gradient(90deg, #ff4a4a, #ff2a2a);box-shadow:0 8px 30px rgba(255,40,40,0.08)}
+.btn.instagram{background:linear-gradient(90deg,#ff7aa2,#fbad4b);box-shadow:0 8px 30px rgba(255,140,80,0.06)}
+.btn.discord{background:linear-gradient(90deg,#7289da,#4b6bd6)}
+
+.card{background:var(--card);padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)}
+.stats{display:flex;gap:12px}
+.stat{padding:8px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);flex:1;text-align:center}
+.stat b{display:block;font-size:17px}
+.muted{color:var(--muted);font-size:13px}
+
+.grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+
+footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+/* responsive */
+@media (max-width:880px){
+  .grid{grid-template-columns:1fr}
+  .right{width:100%}
+  .hero{flex-direction:column;align-items:stretch}
+  header{gap:12px}
+}
+
+/* subtle animated neon underline */
+.neon-title{position:relative}
+.neon-title::after{content:'';position:absolute;left:0;right:40%;bottom:-6px;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:6px;filter:blur(6px);opacity:0.9}
+
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="logo">DG</div>
+      <div>
+        <h1 class="neon-title">Disco Gaming Official</h1>
+        <p class="lead">Tamil gaming channel — Free Fire highlights, edits & cinematic montages.</p>
+      </div>
+    </header><section class="hero">
+  <div class="left">
+    <div class="cover card">
+      <div style="text-align:center;width:100%">
+        <div style="font-size:18px;font-weight:700">Latest Upload</div>
+        <div style="margin-top:8px;color:var(--muted);font-size:13px">Watch my newest Free Fire montage on YouTube</div>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <!-- Replace hrefs with your real profiles -->
+      <a class="btn youtube" href="https://youtube.com/@discogamingchannel-db3kk?si=TxGq6JyHHJ37KfQJ" target="_blank" rel="noopener noreferrer">
+        <span class="icon">►</span>
+        <span>Watch on YouTube</span>
+      </a>
+
+      <a class="btn instagram" href="#instagram" id="instaBtn">
+        <span class="icon">📸</span>
+        <span>Follow on Instagram</span>
+      </a>
+
+      <a class="btn" href="#contact" id="contactBtn">
+        <span class="icon">✉️</span>
+        <span>Contact / Collab</span>
+      </a>
+
+      <button class="btn" id="downloadBtn" title="Download this html file">
+        <span class="icon">⬇️</span>
+        <span>Download Site</span>
+      </button>
+    </div>
+
+    <div style="margin-top:14px" class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-size:14px;font-weight:700">About</div>
+          <div class="muted" style="margin-top:6px">Disco Gaming Official — cinematic edits, tips, and gameplay clips in Tamil. Subscribe and hit the bell!</div>
+        </div>
+        <div style="text-align:right">
+          <div class="muted">Channel</div>
+          <div style="font-weight:700">4.5K subs</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="right">
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div class="muted">Next stream</div>
+          <div style="font-weight:700;margin-top:6px">Not scheduled</div>
+        </div>
+        <div style="text-align:right">
+          <div class="muted">Platform</div>
+          <div style="font-weight:700;margin-top:6px">YouTube</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div style="font-weight:700">Quick links</div>
+      <div style="margin-top:10px;display:flex;flex-direction:column;gap:8px">
+        <a class="btn" href="https://youtube.com/@discogamingchannel-db3kk?si=TxGq6JyHHJ37KfQJ" target="_blank">YouTube Channel</a>
+        <a class="btn" href="#instagram">Instagram</a>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
+    </div>
+
+  </aside>
+</section>
+
+<div class="grid">
+  <section class="card">
+    <h3 style="margin-top:0">Latest Videos</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:12px">
+      <!-- Example video cards -->
+      <div style="background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:10px;border-radius:10px">
+        <div style="height:100px;background:#000;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--muted)">Thumbnail</div>
+        <div style="margin-top:8px;font-weight:700">Free Fire Montage - 1</div>
+        <div class="muted" style="font-size:13px;margin-top:6px">2:34 • 3k views</div>
+      </div>
+
+      <div style="background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:10px;border-radius:10px">
+        <div style="height:100px;background:#000;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--muted)">Thumbnail</div>
+        <div style="margin-top:8px;font-weight:700">Comeback Win - 2v2</div>
+        <div class="muted" style="font-size:13px;margin-top:6px">1:22 • 1.8k views</div>
+      </div>
+    </div>
+  </section>
+
+  <aside class="card" id="contact">
+    <h3 style="margin-top:0">Contact</h3>
+    <p class="muted">Business / collabs — Leave a message below or DM on Instagram.</p>
+    <form id="contactForm" style="margin-top:10px;display:flex;flex-direction:column;gap:8px">
+      <input name="name" placeholder="Your name" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit" />
+      <input name="email" placeholder="Email or Insta" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit" />
+      <textarea name="message" placeholder="Message" rows="4" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div id="formMsg" class="muted" style="margin-top:8px;font-size:13px"></div>
+  </aside>
+</div>
+
+<footer>
+  © <span id="year"></span> Disco Gaming Official — Made with ❤️
+</footer>
+
+  </main>  <script>
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // simple contact form handler (client-side only)
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      document.getElementById('formMsg').textContent = 'Thanks! Message saved locally — copy it and DM on Instagram.';
+    });
+
+    // instagram placeholder behaviour
+    document.getElementById('instaBtn').addEventListener('click', function(e){
+      e.preventDefault();
+      const url = prompt('Paste your Instagram profile URL (or username):','https://instagram.com/');
+      if(url){ window.open(url,'_blank'); }
+    });
+
+    // download the current HTML as a file
+    document.getElementById('downloadBtn').addEventListener('click', function(){
+      const html = '<!doctype html>\n' + document.documentElement.outerHTML;
+      const blob = new Blob([html],{type:'text/html'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'discogaming_official.html';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(a.href);
+    });
+  </script></body>
+</html>
